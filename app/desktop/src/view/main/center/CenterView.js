@@ -37,7 +37,7 @@ Ext.define('MyAppDay2.view.main.center.CenterView', {
 					//if (form.isValid()) { // make sure the form contains valid data before submitting
 						form.submit({
 							success: function(form, action) {
-  
+  //Test
 							   Ext.Msg.alert('Success', action.result.msg);
 							},
 							failure: function(form, action) {
